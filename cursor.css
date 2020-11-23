@@ -1,0 +1,88 @@
+*
+{  margin: 0; padding: 0; box-sizing: border-box; }
+
+body 
+{
+    font-family: 'roboto', sans-serif;
+   background-color: floralwhite;
+   position: relative;
+}
+
+.animate
+{ 
+    position: absolute;
+    color: rgb(60, 141, 141);
+    margin-left: 26% ;
+    padding: 10%;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.typewriter
+{ 
+    color: rgb(105, 146, 201);
+    letter-spacing: 3px;
+    font-size: 18px;
+    animation-delay: 0.4s;
+    margin-left: 15% ;
+    position: absolute;
+    padding: 13%;
+    }
+
+    @keyframes typewriter
+    {
+      0%    {
+         width:0;
+         border-right:none;
+              }
+              0.1%    {
+              
+               border-right:1px solid  rgb(163, 105, 201);
+                    }
+         
+                  99%    {
+                     
+                     border-right:1px solid  rgb(105, 146, 201);
+                          }
+               
+                          100%    {
+                              border-right:none;
+                                }
+                     
+   
+  }
+
+span
+{
+    transition: all 0.5s ease-in-out ;
+    transform: translateY(50px);
+    
+}
+span.fade
+{
+   opacity: 1; 
+   color: rgb(105, 146, 201);
+   transform: translateY(0px);
+}
+
+input
+{
+   position: absolute;
+  margin-left: 40% ;
+  margin-top: 15%;
+   padding: 10px;
+}
+
+.d-none
+{
+     display: none;
+}
+.text-danger {
+  color: red;
+  position: absolute;
+  margin-left: 40% ;
+  margin-top: 18%;
+   padding: 10px;
+}
+
+
